@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Fares Mosquera — desarrollo frontend, bots de Discord y automatización.">
+
+    <title>Fares Mosquera | Proyectos</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Barra de progreso de scroll -->
+    <div class="scroll-progress"><span id="scrollProgress"></span></div>
+
+    <main id="projects" class="page projects-page">
+
+        <!-- Nav flotante con scrollspy -->
+        <nav class="floating-nav" id="floatingNav">
+            <span class="nav-mark">FM<span>.</span>PORTAFOLIO</span>
+
+            <ul class="nav-links">
+                <li><button data-section="discord">Discord</button></li>
+                <li><button data-section="apps">Apps</button></li>
+                <li><button data-section="web">Web</button></li>
+                <li><button data-section="stack">Stack</button></li>
+                <li><button data-section="about">Sobre mí</button></li>
+                <li><button data-section="contact">Contacto</button></li>
+            </ul>
+
+            <button id="homeButtonNav" class="nav-home-btn" aria-label="Volver al inicio">⌂</button>
+        </nav>
+
+        <!-- =================================================
+             PORTADA CON VIDEO
+             ================================================= -->
+
+        <section class="projects-hero">
+
+            <img class="projects-video" src="imagenes/banner2.jpg" alt="Fondo de proyectos">
+
+            <div class="projects-overlay"></div>
+
+            <button id="homeButton" class="home-button" aria-label="Volver al inicio">⌂</button>
+
+            <div class="projects-hero-content">
+
+                <p class="eyebrow">PORTAFOLIO SYSTEM // MAIN MENU</p>
+
+                <h2 class="projects-title">
+                    MIS<br>
+                    <span>PROYECTOS</span>
+                </h2>
+
+                <p class="projects-description">
+                    Explora mis proyectos de desarrollo, automatización y
+                    experiencias digitales. Cada tarjeta incluye un espacio
+                    reservado para mostrar el demo en video o GIF.
+                </p>
+
+                <nav class="projects-menu">
+                    <button class="project-item" data-section="discord">
+                        <span>01</span><strong>BOTS DE DISCORD</strong>
+                    </button>
+                    <button class="project-item" data-section="apps">
+                        <span>02</span><strong>APLICACIONES</strong>
+                    </button>
+                    <button class="project-item" data-section="web">
+                        <span>03</span><strong>PÁGINAS WEB</strong>
+                    </button>
+                    <button class="project-item" data-section="stack">
+                        <span>04</span><strong>STACK TÉCNICO</strong>
+                    </button>
+                    <button class="project-item" data-section="about">
+                        <span>05</span><strong>SOBRE MÍ</strong>
+                    </button>
+                    <button class="project-item" data-section="contact">
+                        <span>06</span><strong>CONTACTO</strong>
+                    </button>
+                </nav>
+
+            </div>
+
+            <div class="scroll-cue">
+                <div class="scroll-cue-line"></div>
+                SCROLL
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             SECCIÓN 01 — DISCORD
+             ================================================= -->
+
+        <section id="discord" class="project-section">
+            <div class="section-inner">
+
+                <div class="section-heading">
+                    <span class="section-number">01</span>
+                    <div>
+                        <p class="section-category">DISCORD // AUTOMATION</p>
+                        <h2>Bots de Discord</h2>
+                        <p>
+                            Desarrollo bots de Discord enfocados en
+                            automatización, moderación y experiencias
+                            interactivas para comunidades digitales.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <!-- ESPACIO PARA VIDEO/GIF: reemplaza el media-placeholder por
+                             <video class="project-media-fill" autoplay muted loop playsinline>
+                                 <source src="imagenes/midori-demo.mp4" type="video/mp4">
+                             </video> -->
+                        <div class="project-media">
+                            <div class="media-placeholder">
+                                <span class="media-icon">▶</span>
+                                <p>Video o GIF demo</p>
+                                <span class="media-hint">Coloca aquí el video o GIF de Midori-Chan Bot en acción</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags"><span>Discord.js</span><span>Node.js</span></div>
+                            <h3>Midori-Chan Bot</h3>
+                            <p>
+                                Bot de Discord creado para automatización y
+                                funcionalidades personalizadas: comandos,
+                                moderación y utilidades para el servidor.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="card-button">Ver demo →</a>
+                                <a href="#" class="card-button ghost">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <!-- ESPACIO PARA VIDEO/GIF: mismo procedimiento que la tarjeta anterior -->
+                        <div class="project-media">
+                            <div class="media-placeholder">
+                                <span class="media-icon">▶</span>
+                                <p>Video o GIF demo</p>
+                                <span class="media-hint">Coloca aquí el video o GIF de ChungKing Express</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags"><span>Automatización</span><span>Node.js</span></div>
+                            <h3>ChungKing Express</h3>
+                            <p>
+                                Proyecto de automatización y desarrollo de
+                                herramientas digitales enfocado en simplificar
+                                tareas repetitivas.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="card-button">Ver demo →</a>
+                                <a href="#" class="card-button ghost">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- =================================================
+             SECCIÓN 02 — APLICACIONES
+             ================================================= -->
+
+        <section id="apps" class="project-section">
+            <div class="section-inner">
+
+                <div class="section-heading">
+                    <span class="section-number">02</span>
+                    <div>
+                        <p class="section-category">SOFTWARE // DEVELOPMENT</p>
+                        <h2>Aplicaciones</h2>
+                        <p>
+                            Aplicaciones diseñadas para resolver problemas y
+                            mejorar experiencias digitales, de escritorio y
+                            móviles.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <div class="project-media">
+                            <div class="media-placeholder">
+                                <span class="media-icon">▶</span>
+                                <p>Video o GIF demo</p>
+                                <span class="media-hint">Coloca aquí el demo de tu aplicación de escritorio</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags"><span>Desktop</span><span>JavaScript</span></div>
+                            <h3>Aplicación de escritorio</h3>
+                            <p>
+                                Software funcional desarrollado con
+                                tecnologías modernas, pensado para resolver
+                                una tarea concreta de forma eficiente.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="card-button">Ver demo →</a>
+                                <a href="#" class="card-button ghost">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-media">
+                            <div class="media-placeholder">
+                                <span class="media-icon">▶</span>
+                                <p>Video o GIF demo</p>
+                                <span class="media-hint">Coloca aquí el demo de tu aplicación móvil</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags"><span>Mobile</span><span>Responsive</span></div>
+                            <h3>Aplicación móvil</h3>
+                            <p>
+                                Experiencia digital adaptable para diferentes
+                                dispositivos, con foco en usabilidad e
+                                interfaz limpia.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="card-button">Ver demo →</a>
+                                <a href="#" class="card-button ghost">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- =================================================
+             SECCIÓN 03 — PÁGINAS WEB
+             ================================================= -->
+
+        <section id="web" class="project-section">
+            <div class="section-inner">
+
+                <div class="section-heading">
+                    <span class="section-number">03</span>
+                    <div>
+                        <p class="section-category">FRONTEND // WEB DESIGN</p>
+                        <h2>Páginas Web</h2>
+                        <p>
+                            Diseño y desarrollo de páginas web modernas,
+                            responsivas y enfocadas en la experiencia del
+                            usuario.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <div class="project-media">
+                            <div class="media-placeholder">
+                                <span class="media-icon">▶</span>
+                                <p>Video o GIF demo</p>
+                                <span class="media-hint">Coloca aquí un recorrido en video de tu portafolio</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags"><span>HTML5</span><span>CSS3</span></div>
+                            <h3>Portafolio personal</h3>
+                            <p>
+                                Una experiencia digital creada para presentar
+                                proyectos y habilidades con una estética
+                                cuidada.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="card-button">Ver demo →</a>
+                                <a href="#" class="card-button ghost">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-media">
+                            <div class="media-placeholder">
+                                <span class="media-icon">▶</span>
+                                <p>Video o GIF demo</p>
+                                <span class="media-hint">Coloca aquí capturas animadas de tus interfaces</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags"><span>UI/UX</span><span>Figma</span></div>
+                            <h3>Diseño de interfaces</h3>
+                            <p>
+                                Interfaces visuales con una estética moderna y
+                                funcional, pensadas primero como experiencia
+                                y después como código.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="card-button">Ver demo →</a>
+                                <a href="#" class="card-button ghost">Código →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- =================================================
+             SECCIÓN 04 — STACK TÉCNICO
+             ================================================= -->
+
+        <section id="stack" class="project-section">
+            <div class="section-inner">
+
+                <div class="section-heading">
+                    <span class="section-number">04</span>
+                    <div>
+                        <p class="section-category">TOOLS // TECHNOLOGY</p>
+                        <h2>Stack técnico</h2>
+                        <p>
+                            Las herramientas y tecnologías que uso a diario
+                            para construir, automatizar y desplegar mis
+                            proyectos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="stack-grid">
+
+                    <div class="stack-card">
+                        <h3>FRONTEND</h3>
+                        <div class="stack-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+
+                    <div class="stack-card">
+                        <h3>AUTOMATIZACIÓN & BOTS</h3>
+                        <div class="stack-list">
+                            <span>Node.js</span>
+                            <span>Discord.js</span>
+                            <span>Python</span>
+                            <span>APIs REST</span>
+                        </div>
+                    </div>
+
+                    <div class="stack-card">
+                        <h3>HERRAMIENTAS</h3>
+                        <div class="stack-list">
+                            <span>Git / GitHub</span>
+                            <span>VS Code</span>
+                            <span>Figma</span>
+                            <span>Arch Linux</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- =================================================
+             SECCIÓN 05 — SOBRE MÍ
+             ================================================= -->
+
+        <section id="about" class="project-section about-section">
+            <div class="section-inner">
+
+                <div class="section-heading">
+                    <span class="section-number">05</span>
+                    <div>
+                        <p class="section-category">PROFILE // ABOUT</p>
+                        <h2>Sobre mí</h2>
+                        <p>
+                            Estudiante de Desarrollo de Software con interés
+                            en frontend, automatización y creación de
+                            experiencias digitales.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-lead">
+                        <p>
+                            Me llamo Fares Mosquera y disfruto convirtiendo
+                            ideas en interfaces funcionales. Aprendo
+                            construyendo: cada proyecto, bot o página es una
+                            excusa para dominar una herramienta nueva.
+                        </p>
+                        <p>
+                            Me interesa especialmente el punto de encuentro
+                            entre diseño y automatización: interfaces que se
+                            ven bien y sistemas que trabajan solos detrás de
+                            ellas.
+                        </p>
+
+                        <ul class="about-facts">
+                            <li><span>Ubicación</span><span>Panamá</span></li>
+                            <li><span>Enfoque</span><span>Frontend & automatización</span></li>
+                            <li><span>Estado</span><span>Estudiante activo</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="about-boxes">
+
+                        <div class="about-box">
+                            <span class="about-label">01</span>
+                            <h3>Desarrollo Frontend</h3>
+                            <p>
+                                Creación de interfaces modernas, responsivas
+                                y visualmente atractivas.
+                            </p>
+                        </div>
+
+                        <div class="about-box">
+                            <span class="about-label">02</span>
+                            <h3>Automatización</h3>
+                            <p>
+                                Desarrollo de soluciones que simplifican
+                                tareas y procesos digitales.
+                            </p>
+                        </div>
+
+                        <div class="about-box">
+                            <span class="about-label">03</span>
+                            <h3>Aprendizaje constante</h3>
+                            <p>
+                                Siempre buscando mejorar mis habilidades y
+                                aprender nuevas tecnologías.
+                            </p>
+                        </div>
+
+                        <div class="about-box">
+                            <span class="about-label">04</span>
+                            <h3>Atención al detalle</h3>
+                            <p>
+                                Cuido cada transición, espaciado y estado de
+                                interacción de lo que construyo.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- =================================================
+             SECCIÓN 06 — CONTACTO
+             ================================================= -->
+
+        <section id="contact" class="project-section contact-section">
+            <div class="section-inner">
+
+                <div class="section-heading">
+                    <span class="section-number">06</span>
+                    <div>
+                        <p class="section-category">CONTACT // CONNECT</p>
+                        <h2>Contacto</h2>
+                        <p>¿Tienes una idea o un proyecto? Me gustaría conocerlo.</p>
+                    </div>
+                </div>
+
+                <div class="contact-layout">
+
+                    <div class="contact-box">
+                        <p>
+                            Puedes contactarme para hablar sobre desarrollo
+                            web, aplicaciones o automatización. Respondo
+                            normalmente en menos de 48 horas.
+                        </p>
+
+                        <a href="mailto:serafmosquera001@gmail.com" class="contact-button">
+                            ENVIAR MENSAJE →
+                        </a>
+
+                        <div class="availability-badge">
+                            <span></span>
+                            DISPONIBLE PARA PROYECTOS FREELANCE
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="https://github.com/SerafMosquera" target="_blank" rel="noopener noreferrer" class="social-link">GitHub <span class="tag">@Seraf Mosquera </span></a>
+                        <a href="https://www.linkedin.com/in/fares-mosquera-430230426/" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn <span class="tag">@Fares Mosquera</span></a>
+                        <a href="https://id-discord-perfil-directo.onrender.com" target="_blank" rel="noopener noreferrer" class="social-link">Discord <span class="tag">@lanymushito</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- =================================================
+             FOOTER FINAL
+             ================================================= -->
+
+        <footer class="projects-footer">
+            <span>FRONTEND DEVELOPER</span>
+            <span>SOFTWARE DEVELOPMENT STUDENT</span>
+            <div class="footer-social">
+                <a href="https://github.com/SerafMosquera" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/fares-mosquera-430230426/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:serafmosquera001@gmail.com">Email</a>
+            </div>
+            <span>© 2026 FARES MOSQUERA</span>
+        </footer>
+
+    </main>
+
+
+    <script src="js/proyectos.js"></script>
+
+</body>
+</html>
